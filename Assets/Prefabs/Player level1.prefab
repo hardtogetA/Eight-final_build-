@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!70 &1951362036
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928228090860658187}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.011589527, y: -0.13407946}
+  m_Size: {x: 0.691541, y: 0.8467674}
+  m_Direction: 0
+--- !u!1001 &7344871286138588692
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 416648080958427157, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 416648080958427157, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 416648080958427157, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.131
+      objectReference: {fileID: 0}
+    - target: {fileID: 416648080958427157, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416648080958427157, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416648080958427157, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416648080958427157, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 416648080958427157, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416648080958427157, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416648080958427157, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416648080958427157, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416648080958427161, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"UnplayableFrames","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"NoSlideFrames","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Speed","value":{"$content":180.0,"$type":"System.Single"},"$version":"A"},{"name":"JumpSpeed","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"SlideSpeed","value":{"$content":-1.2,"$type":"System.Single"},"$version":"A"},{"name":"DashSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"AccelerationTime","value":{"$content":0.04,"$type":"System.Single"},"$version":"A"},{"name":"DeccelerationTime","value":{"$content":0.03,"$type":"System.Single"},"$version":"A"},{"name":"FallMultiplyer","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"JumpMultiplyer","value":{"$content":-8.0,"$type":"System.Single"},"$version":"A"},{"name":"HorizontalRaw","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"VerticalRaw","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"DashAxisRaw","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Grounded","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Jumping","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"IsOnWall","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"IsDashing","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"IsOnLeftWall","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"IsOnRightWall","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"IsOnLeftAirWall","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"IsOnRightAirWall","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"WallSlide","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"WallJumping","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"CanWallJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"NoJumpDeccel","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Dashing","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"MaxDashTimes","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"CurrDashTimes","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"RebornPos","value":{"x":-4.2,"y":-6.0,"z":-0.13,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"RebornSpeed","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"GroundedTmp","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"SlideDustFrames","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"test","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"GotStrawberry","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 416648080958427167, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_Name
+      value: Player level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2485388353304271913, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2485388353304271913, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.043137256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2485388353304271913, guid: 7816182f258ebde47be7ca6dc3af5295,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.043137256
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 416648080958427163, guid: 7816182f258ebde47be7ca6dc3af5295, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 7816182f258ebde47be7ca6dc3af5295, type: 3}
+--- !u!1 &6928228090860658187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 416648080958427167, guid: 7816182f258ebde47be7ca6dc3af5295,
+    type: 3}
+  m_PrefabInstance: {fileID: 7344871286138588692}
+  m_PrefabAsset: {fileID: 0}

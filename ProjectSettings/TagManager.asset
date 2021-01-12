@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - AirWall
+  - PlatForm
+  - Ghost
+  - Ghost0
+  - Ghost1
+  - Ghost2
+  - HairFlow_0
+  - HairFlow_1
+  - HairFlow_2
+  - HairFlow_3
+  - HairFlow_4
+  - HairFlow_5
+  - HairFlow_All
+  - HairBase
+  - Dust
+  - DashDust
+  - Chest
+  - Strawberry
+  - Key
+  - Spikes
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Platform
+  - AirWall
+  - Player
+  - Hair
+  - Spikes
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
